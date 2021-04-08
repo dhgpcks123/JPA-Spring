@@ -57,15 +57,12 @@ public class Main {
             member.setName("hello");
             member.setTeam(team);
             em.persist(member);
-
             em.flush();
             em.clear();
-
             //테이블을 가져오려면? getId가져오고 다시 team에서 teamId를 가져와야 함
             //데이터지향적임..객체지향적인 방법이지 못함
             RelationMember findMember = em.find(RelationMember.class, member.getId());
             RelationTeam findTeam = findMember.getTeam();
-
             findTeam.getName();
             List<RelationMember> members = findTeam.getMembers();
             for(RelationMember member1 : members){
@@ -74,7 +71,6 @@ public class Main {
             RelationTeam findMemberFromTeam = em.find(RelationTeam.class, team.getId());
             int memberSize = findMemberFromTeam.getMembers().size();
             System.out.println(memberSize);
-
             tx.commit();
         }catch(Exception e){
             tx.rollback();

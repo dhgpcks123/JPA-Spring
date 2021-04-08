@@ -6,7 +6,7 @@ import java.util.Date;
 @Entity
 public class Member {
 
-    @Id //pk
+    @Id //primary key
     @GeneratedValue(strategy = GenerationType.AUTO)
     /*
         strategy = GenerationType.IDENTITY -> 데이터베이스에 위임, MY SQL
