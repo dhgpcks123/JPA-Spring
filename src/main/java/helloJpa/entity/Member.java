@@ -3,7 +3,6 @@ package helloJpa.entity;
 import javax.persistence.*;
 import java.util.Date;
 
-@Entity
 public class Member {
 
     @Id //primary key

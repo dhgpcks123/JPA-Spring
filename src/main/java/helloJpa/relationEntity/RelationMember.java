@@ -1,7 +1,5 @@
 package helloJpa.relationEntity;
 
-import helloJpa.entity.MemberType;
-
 import javax.persistence.*;
 
 @Entity

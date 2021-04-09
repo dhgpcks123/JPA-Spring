@@ -1,6 +1,5 @@
 package helloJpa.relationEntity;
 
-import javax.management.relation.Relation;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
