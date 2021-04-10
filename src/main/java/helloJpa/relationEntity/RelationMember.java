@@ -2,7 +2,6 @@ package helloJpa.relationEntity;
 
 import javax.persistence.*;
 
-@Entity
 public class RelationMember {
 
     @Id @GeneratedValue(strategy = GenerationType.AUTO)

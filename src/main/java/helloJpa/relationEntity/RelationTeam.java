@@ -7,7 +7,6 @@ import javax.persistence.OneToMany;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
 public class RelationTeam {
 
     @Id @GeneratedValue
