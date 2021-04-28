@@ -24,12 +24,14 @@
 
         <!-- 연습용 데이터베이스 h2 -->
         <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
-<!--        <dependency>-->
-<!--            <groupId>com.h2database</groupId>-->
-<!--            <artifactId>h2</artifactId>-->
-<!--            <version>1.4.200</version>-->
-<!--            <scope>test</scope>-->
-<!--        </dependency>-->
+        <!--
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.200</version>
+            <scope>test</scope>
+        </dependency>
+                -->
 <!--        연결이 안되어서 직접 jar파일을 쓰기러 했음-->
 
     </dependencies>
